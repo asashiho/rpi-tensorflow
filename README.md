@@ -17,7 +17,7 @@ apt-get update
 apt-get install python-pip python-dev
 
 # For Python 3.5
-apt-get install python3-pip python3-dev
+apt-get install python3-pip python3-dev libatlas-base-dev
 ```
 
 Next, download the wheel file from this repository and install it:
@@ -59,4 +59,3 @@ b'Hello, TensorFlow!'
 ```
 
 **Note: These are unofficial binaries (though built from the minimally modified official source), and thus there is no expectation of support from the TensorFlow team. Please don't create issues for these files in the official TensorFlow repository.**
-
